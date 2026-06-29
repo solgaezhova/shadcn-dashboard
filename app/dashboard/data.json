@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "header": "Patients Today",
+    "type": "Metric",
+    "status": "Done",
+    "target": "72",
+    "limit": "100",
+    "reviewer": "Clinic Admin"
+  },
+  {
+    "id": 2,
+    "header": "Average Wait Time",
+    "type": "Metric",
+    "status": "In Process",
+    "target": "28",
+    "limit": "60",
+    "reviewer": "Operations Manager"
+  },
+  {
+    "id": 3,
+    "header": "Open Exam Rooms",
+    "type": "Operational",
+    "status": "Done",
+    "target": "3",
+    "limit": "8",
+    "reviewer": "Facilities"
+  },
+  {
+    "id": 4,
+    "header": "Staff On Duty",
+    "type": "Operational",
+    "status": "Done",
+    "target": "12",
+    "limit": "20",
+    "reviewer": "Shift Lead"
+  },
+  {
+    "id": 5,
+    "header": "Triage - Low",
+    "type": "Triage",
+    "status": "Done",
+    "target": "44",
+    "limit": "0",
+    "reviewer": "Nurse Manager"
+  },
+  {
+    "id": 6,
+    "header": "Triage - Medium",
+    "type": "Triage",
+    "status": "Done",
+    "target": "20",
+    "limit": "0",
+    "reviewer": "Nurse Manager"
+  },
+  {
+    "id": 7,
+    "header": "Triage - High",
+    "type": "Triage",
+    "status": "In Process",
+    "target": "8",
+    "limit": "0",
+    "reviewer": "Charge Nurse"
+  },
+  {
+    "id": 8,
+    "header": "Upcoming Appointments",
+    "type": "Appointments",
+    "status": "In Process",
+    "target": "3",
+    "limit": "30",
+    "reviewer": "Front Desk"
+  }
+  ,
+  {
+    "id": 9,
+    "header": "Recent Check-ins",
+    "type": "Check-ins",
+    "status": "In Process",
+    "target": "5",
+    "limit": "50",
+    "reviewer": "Front Desk"
+  },
+  {
+    "id": 10,
+    "header": "Lab Results Pending",
+    "type": "Lab",
+    "status": "In Process",
+    "target": "12",
+    "limit": "0",
+    "reviewer": "Lab Coordinator"
+  },
+  {
+    "id": 11,
+    "header": "Patients in Waiting",
+    "type": "Operational",
+    "status": "In Process",
+    "target": "8",
+    "limit": "20",
+    "reviewer": "Charge Nurse"
+  },
+  {
+    "id": 12,
+    "header": "High-Triage Cases",
+    "type": "Triage",
+    "status": "In Process",
+    "target": "2",
+    "limit": "0",
+    "reviewer": "Physician on Call"
+  },
+  {
+    "id": 13,
+    "header": "Supplies Low",
+    "type": "Inventory",
+    "status": "In Process",
+    "target": "IV kits, Masks",
+    "limit": "Reorder",
+    "reviewer": "Facilities"
+  },
+  {
+    "id": 14,
+    "header": "Shift Handover Notes",
+    "type": "Notes",
+    "status": "Done",
+    "target": "4",
+    "limit": "0",
+    "reviewer": "Shift Lead"
+  }
+]
