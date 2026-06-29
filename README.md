@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Healthcare Clinic Dashboard
+
+A modern, accessible healthcare clinic management dashboard built with **Next.js**, **shadcn/ui**, and **Tailwind CSS**. Designed with healthcare professionals in mind, featuring an intuitive interface for patient management, real-time metrics, and clinic operations.
+
+## Features
+
+🏥 **Healthcare-Focused Design**
+- Clinic-optimized color palette using oklch color space for perceptual uniformity
+- Trustworthy blue primary colors and clean white surfaces
+- Dark mode support for 24/7 clinic operations
+
+📊 **Real-Time Metrics Dashboard**
+- Patient count tracking
+- Average wait time monitoring
+- Open exam rooms availability
+- Staff on-duty status
+- Interactive area charts for trends
+
+🗂️ **Clinic Management**
+- Outline/content management table with drag-and-drop
+- Advanced filtering and pagination
+- Target and limit field management
+- Column customization and sorting
+
+🎨 **Built With**
+- [Next.js 16.2.9](https://nextjs.org) with Turbopack
+- [shadcn/ui](https://ui.shadcn.com) component library
+- [Tailwind CSS](https://tailwindcss.com) for styling
+- [Recharts](https://recharts.org) for data visualization
+- [TanStack React Table](https://tanstack.com/table) for table management
+- TypeScript for type safety
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+
+- npm, yarn, or pnpm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the dashboard.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── app/                 # Next.js app directory
+│   ├── globals.css     # Global styles & theme tokens
+│   ├── layout.tsx      # Root layout
+│   └── page.tsx        # Home page
+├── components/
+│   ├── ui/             # shadcn/ui components
+│   ├── app-sidebar.tsx # Main sidebar navigation
+│   ├── chart-area-interactive.tsx # Patient & wait time trends
+│   ├── section-cards.tsx # KPI metric cards
+│   ├── data-table.tsx  # Management table
+│   └── ...
+├── lib/                # Utilities and helpers
+└── hooks/              # Custom React hooks
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Color System
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The dashboard uses an **oklch-based color palette** for better perceptual uniformity:
 
-## Deploy on Vercel
+- **Primary**: Trustworthy blue (`oklch(0.46 0.12 210)`)
+- **Sidebar**: Clean white (`oklch(1 0 0)`)
+- **Accent**: Soft teal/mint for supportive UI (`oklch(0.92 0.03 185)`)
+- **Chart Colors**: Five distinct series colors for data visualization
+- **Dark Mode**: Adjusted oklch values for 24/7 usability
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Environment Setup
+
+The project uses:
+- **Turbopack** for fast builds and HMR
+- **TypeScript** for type safety
+- **Tailwind CSS** with clinic-focused color tokens
+- **ESLint** for code quality
+
+### Key Components
+
+- `SidebarProvider` & `Sidebar` - Collapsible navigation
+- `Chart` components - Data visualization with Recharts
+- `DataTable` - Customizable table with drag-and-drop
+- `Card` & `Badge` - Metric cards with color-coded borders
+
+## Contributing
+
+Contributions welcome! Please follow these guidelines:
+1. Create a feature branch
+2. Test your changes with `npm run build`
+3. Commit with clear messages
+4. Push and open a pull request
+
+## License
+
+MIT License - feel free to use this dashboard as a template for your clinic or healthcare project.
+
+## Support
+
+For issues, feature requests, or questions, please open an issue on GitHub.
