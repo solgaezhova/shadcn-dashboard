@@ -1,19 +1,3 @@
-## Personal Projects
-
-1. ***Healthcare Clinic Dashboard*** (Next.js 16.2.9, shadcn/ui, Tailwind CSS, TypeScript, Recharts) - A modern, accessible healthcare clinic management dashboard with real-time metrics, patient tracking, and clinic operations management.
-
-- Clinic-optimized accessible color palette using oklch color space for perceptual uniformity
-- Real-time metrics dashboard: patient count, average wait time, open exam rooms, staff status
-- Interactive area charts for patient and wait time trend visualization
-- Advanced outline/content management table with drag-and-drop, filtering, and pagination
-- Dark mode support for 24/7 clinic operations
-- Fully responsive design with intuitive UI for healthcare professionals
-- Built with TypeScript for type safety and modern React patterns
-
-You can find code here - [https://github.com/solgaezhova/shadcn-dashboard](https://github.com/solgaezhova/shadcn-dashboard).
-
----
-
 # Healthcare Clinic Dashboard
 
 A modern, accessible healthcare clinic management dashboard built with **Next.js**, **shadcn/ui**, and **Tailwind CSS**. Designed with healthcare professionals in mind, featuring an intuitive interface for patient management, real-time metrics, and clinic operations.
